@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "dev": "set NODE_ENV=development&&nodemon backend/server.js ",
-    "prod": "set NODE_ENV=production&&node backend/server.js ",
+    "dev": "set NODE_ENV=development&&node server.js ",
+    "prod": "set NODE_ENV=production&&node server.js ",
     "seeder": "node backend/utils/seeder.js",
     "build":"npm i"
   },
