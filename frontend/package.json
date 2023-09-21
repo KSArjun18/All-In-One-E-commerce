@@ -51,5 +51,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://all-in-one-9h93.onrender.com"
+  "proxy": "http://127.0.0.1:8000"
 }

@@ -4,11 +4,10 @@
   "description": "ecommerce using mern stack",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "set NODE_ENV=development&&node server.js ",
-    "prod": "set NODE_ENV=production&&node server.js ",
-    "seeder": "node backend/utils/seeder.js",
-    "build":"npm i"
+    "start": "nodemon backend/server.js",
+    "dev": "set NODE_ENV=development&&nodemon backend/server.js",
+    "prod": "set NODE_ENV=production&&nodemon backend/server.js",
+    "seeder": "node backend/utils/seeder.js"
   },
   "author": "Arjun",
   "license": "ISC",
